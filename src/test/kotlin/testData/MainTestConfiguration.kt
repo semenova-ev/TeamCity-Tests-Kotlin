@@ -11,7 +11,7 @@ open class MainTestConfiguration {
         private lateinit var userToken: String;
 
         fun configure() {
-            Configuration.baseUrl = "http://51.250.97.59:8111"
+            Configuration.baseUrl = "http://51.250.97.59:8222"
             Configuration.browserSize = "1920x1080"
 
             userName = Users.mainUsername
